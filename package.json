@@ -2,7 +2,7 @@
   "name": "set-up-project-with-webpack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +12,8 @@
   "devDependencies": {
     "webpack": "^5.82.1",
     "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
